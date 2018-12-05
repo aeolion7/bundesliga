@@ -9,52 +9,51 @@ body {
   grid-template-rows: .5% 33% 33% 33% .5%;
 }
 
-#game-1 {
-  background-color: #fff;
+.game {
+  border-radius: 30px;
+}
+
+#container-1 {
   grid-column-start: 2;
   grid-row-start: 2;
 }
 
-#game-2 {
+#container-2 {
   grid-column-start: 3;
   grid-row-start: 2;
 }
 
-#game-3 {
-  background-color: #fff;
+#container-3 {
   grid-column-start: 4;
   grid-row-start: 2;
 }
 
-#game-4 {
+#container-4 {
   grid-column-start: 2;
   grid-row-start: 3;
 }
 
-#game-5 {
-  background-color: #fff;
+#container-5 {
   grid-column-start: 3;
   grid-row-start: 3;
 }
 
-#game-6 {
+#container-6 {
   grid-column-start: 4;
   grid-row-start: 3;
 }
 
-#game-7 {
-  background-color: #fff;
+#container-7 {
   grid-column-start: 2;
   grid-row-start: 4;
 }
 
-#game-8 {
+#container-8 {
   grid-column-start: 3;
   grid-row-start: 4;
 }
 
-#game-9 {
-  background-color: #fff;
+#container-9 {
   grid-column-start: 4;
   grid-row-start: 4;
 }
