@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+#display {
+  background-color: lightgrey;
+}
+
+#root-container {
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+  height: 100vh;
+}
+
+#sidebar {
+  background-color: red;
+}
