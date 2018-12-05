@@ -9,8 +9,17 @@ body {
   grid-template-rows: .5% 33% 33% 33% .5%;
 }
 
+.even-game {
+  background-color: #EEEEEE;
+}
+
 .game {
-  border-radius: 30px;
+  border-radius: 10px;
+  margin: 0.3vh 0.2vw;
+}
+
+.odd-game {
+  background-color: #BBBBBB;
 }
 
 #container-1 {
@@ -60,7 +69,7 @@ body {
 
 #root-container {
   display: grid;
-  grid-template-columns: 15vw 85vw;
+  grid-template-columns: 10vw 90vw;
   height: 100vh;
 }
 
