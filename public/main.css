@@ -70,7 +70,7 @@ body {
 
 #root-container {
   display: grid;
-  grid-template-columns: 10vw 90vw;
+  grid-template-columns: 15vw 85vw;
   height: 100vh;
 }
 
