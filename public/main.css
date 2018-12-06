@@ -4,10 +4,10 @@ body {
 
 .even-game {
   background-color: #EEEEEE;
-  border: 3px outset rgb(170, 170, 170);
 }
 
 .game {
+  border: 3px outset rgb(170, 170, 170);
   border-radius: 10px;
   margin: 0.3vh 0.2vw;
 }
@@ -18,7 +18,6 @@ body {
 
 .odd-game {
   background-color: #BBBBBB;
-  border: 3px outset rgb(170, 170, 170);
 }
 
 #bundesliga-logo {
