@@ -4,7 +4,7 @@ body {
 
 .even-game {
   background-color: #EEEEEE;
-  border: 3px outset white;
+  border: 3px outset rgb(170, 170, 170);
 }
 
 .game {
@@ -12,9 +12,13 @@ body {
   margin: 0.3vh 0.2vw;
 }
 
+.game:hover {
+  border-style: inset;
+}
+
 .odd-game {
   background-color: #BBBBBB;
-  border: 3px outset lightgrey;
+  border: 3px outset rgb(170, 170, 170);
 }
 
 #bundesliga-logo {
@@ -82,5 +86,5 @@ body {
 }
 
 #sidebar {
-  background-color: rgb(148, 77, 77);
+  background-color: rgba(216, 20, 20, 0.808);
 }
