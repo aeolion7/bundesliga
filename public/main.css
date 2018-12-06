@@ -2,13 +2,6 @@ body {
   margin: 0;
 }
 
-#display {
-  background-color: lightgrey;
-  display: grid;
-  grid-template-columns: .5% 33% 33% 33% .5%;
-  grid-template-rows: .5% 33% 33% 33% .5%;
-}
-
 .even-game {
   background-color: #EEEEEE;
 }
@@ -67,6 +60,14 @@ body {
   grid-row-start: 4;
 }
 
+#display {
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: .5% 33% 33% 33% .5%;
+  grid-template-rows: .5% 33% 33% 33% .5%;
+  padding: 0.5vh 0.5vw;
+}
+
 #root-container {
   display: grid;
   grid-template-columns: 10vw 90vw;
@@ -74,5 +75,5 @@ body {
 }
 
 #sidebar {
-  background-color: rgb(233, 30, 30);
+  background-color: #C80A00;
 }
