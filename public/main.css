@@ -16,7 +16,7 @@ body {
 }
 
 #bundesliga-logo {
-  margin-top: 1vh;
+  margin-top: -0.13vh;
   width: 100%;
 }
 
@@ -80,5 +80,5 @@ body {
 }
 
 #sidebar {
-  background-color: #C80A00;
+  background-color: rgb(148, 77, 77);
 }
