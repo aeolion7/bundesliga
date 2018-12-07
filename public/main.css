@@ -9,6 +9,9 @@ body {
 .game {
   border: 3px outset rgb(170, 170, 170);
   border-radius: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
   margin: 0.3vh 0.2vw;
 }
 
@@ -86,4 +89,8 @@ body {
 
 #sidebar {
   background-color: rgba(216, 20, 20, 0.808);
+}
+
+#sidebar > h1, #sidebar > h3 {
+  text-align: center;
 }
