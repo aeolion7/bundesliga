@@ -10,8 +10,7 @@ body {
   border: 3px outset rgb(170, 170, 170);
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 15% 70% 15%;
   margin: 0.3vh 0.2vw;
 }
 
