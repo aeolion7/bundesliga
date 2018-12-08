@@ -99,6 +99,15 @@ body {
   padding: 0.5vh 0.5vw;
 }
 
+#gladbach {
+  height: 90%;
+  width: 70%;
+}
+
+#rb-leipzig {
+  width: 100%;
+}
+
 #root-container {
   display: grid;
   grid-template-columns: 15vw 85vw;
