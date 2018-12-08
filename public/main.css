@@ -38,6 +38,7 @@ body {
 .team-logo {
   align-self: center;
   height: 70%;
+  justify-self: center;
   width: 90%;
 }
 
