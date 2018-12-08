@@ -24,7 +24,7 @@ body {
 
 .game-body {
   display: grid;
-  grid-template-columns: 35% 30% 35%;
+  grid-template-columns: 36% 28% 36%;
 }
 
 .home-team {
