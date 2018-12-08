@@ -3,7 +3,7 @@ body {
 }
 
 .away-team {
-  margin-right: 7%;
+  margin-right: 5%;
 }
 
 .even-game {
@@ -38,7 +38,7 @@ body {
 .team-logo {
   align-self: center;
   height: 70%;
-  width: 90%;
+  width: 95%;
 }
 
 #bundesliga-logo {
