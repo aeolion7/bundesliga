@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.away-team {
+  margin-right: 5%;
+}
+
 .even-game {
   background-color: #EEEEEE;
 }
@@ -18,8 +22,23 @@ body {
   border-style: inset;
 }
 
+.game-body {
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+}
+
+.home-team {
+  margin-left: 5%;
+}
+
 .odd-game {
   background-color: #CCCCCC;
+}
+
+.team-logo {
+  align-self: center;
+  height: 70%;
+  width: 100%;
 }
 
 #bundesliga-logo {

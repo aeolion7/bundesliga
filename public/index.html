@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Bundesliga Web-App</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-</head>
-<body>
-  <div id="root-container">
-    <div id="sidebar">
-      <img id="bundesliga-logo" src="logos/bundesliga.png" />
-      <h1>Matchday ##</h1>
-      <h3>Season 20XX-XX</h3>
-    </div>
-    <div id="display">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bundesliga Web-App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="sidebar">
+        <img id="bundesliga-logo" src="logos/bundesliga.png" />
+        <h1>Matchday ##</h1>
+        <h3>Season 20XX-XX</h3>
+      </div>
+      <div id="display">
         <div class="odd-game game" id="container-1">
           <div></div>
-          <div></div>
+          <div class="game-body">
+            <img class="team-logo home-team" src="./logos/bayern.png" />
+            <div class="score"></div>
+            <img class="team-logo away-team" src="./logos/bvb.png" />
+          </div>
           <div></div>
         </div>
         <div class="even-game game" id="container-2"></div>
@@ -28,7 +32,7 @@
         <div class="odd-game game" id="container-7"></div>
         <div class="even-game game" id="container-8"></div>
         <div class="odd-game game" id="container-9"></div>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
