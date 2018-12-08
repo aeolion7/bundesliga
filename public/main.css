@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-.away-team {
-  margin-right: 5%;
-}
-
 .even-game {
   background-color: #EEEEEE;
 }
@@ -33,10 +29,6 @@ body {
   font-family: 'Arvo', serif;
   font-size: 3.3em;
   justify-content: center;
-}
-
-.home-team {
-  margin-left: 5%;
 }
 
 .odd-game {
@@ -127,6 +119,10 @@ body {
   width: 70%;
 }
 
+#hoffenheim {
+  width: 80%;
+}
+
 #leverkusen {
   height: 60%;
   width: 100%;
@@ -146,8 +142,13 @@ body {
 #sidebar {
   background-color: rgba(216, 20, 20, 0.808);
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
 }
 
 #sidebar > h1, #sidebar > h3 {
   text-align: center;
+}
+
+#stuttgart {
+  width: 70%;
 }
