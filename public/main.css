@@ -27,6 +27,14 @@ body {
   grid-template-columns: 36% 28% 36%;
 }
 
+.game-info {
+  align-items: center;
+  display: flex;
+  font-family: 'Arvo', serif;
+  font-size: 3.3em;
+  justify-content: center;
+}
+
 .home-team {
   margin-left: 5%;
 }
@@ -42,8 +50,12 @@ body {
   width: 90%;
 }
 
+#augsburg {
+  width: 70%
+}
+
 #bremen {
-  height: 90%;
+  height: 80%;
   width: 70%;
 }
 
@@ -105,12 +117,23 @@ body {
   padding: 0.5vh 0.5vw;
 }
 
-#gladbach {
+#freiburg {
   height: 90%;
+  width: 80%;
+}
+
+#gladbach {
+  height: 80%;
   width: 70%;
 }
 
+#leverkusen {
+  height: 60%;
+  width: 100%;
+}
+
 #rb-leipzig {
+  height: 55%;
   width: 100%;
 }
 
@@ -122,6 +145,7 @@ body {
 
 #sidebar {
   background-color: rgba(216, 20, 20, 0.808);
+  font-family: 'Open Sans', sans-serif;
 }
 
 #sidebar > h1, #sidebar > h3 {
