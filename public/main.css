@@ -2,15 +2,7 @@ body {
   margin: 0;
 }
 
-.game-info {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.game-info p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+h3 {
   margin: 0;
 }
 
@@ -35,6 +27,22 @@ body {
   grid-template-columns: 36% 28% 36%;
 }
 
+.game-info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.game-info p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+.odd-game {
+  background-color: #CCCCCC;
+}
+
 .score {
   align-items: center;
   display: flex;
@@ -43,10 +51,6 @@ body {
   font-family: 'Arvo', serif;
   font-size: 3.3em;
   justify-content: center;
-}
-
-.odd-game {
-  background-color: #CCCCCC;
 }
 
 .team-logo {
