@@ -6,6 +6,10 @@ h3 {
   margin: 0;
 }
 
+tbody {
+  overflow: hidden;
+}
+
 .even-game {
   background-color: #EEEEEE;
 }
@@ -170,4 +174,13 @@ h3 {
 
 #stuttgart {
   width: 70%;
+}
+
+#table {
+  height: auto;
+}
+
+#table tr {
+  border-bottom: 1px solid grey;
+  font-size: 0.8em;
 }
