@@ -1,7 +1,5 @@
-body {
-  margin: 0;
-}
-
+body,
+h1,
 h3 {
   margin: 0;
 }
@@ -11,7 +9,7 @@ tbody {
 }
 
 .even-game {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .game {
@@ -44,7 +42,7 @@ tbody {
 }
 
 .odd-game {
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 }
 
 .score {
@@ -65,7 +63,7 @@ tbody {
 }
 
 #augsburg {
-  width: 70%
+  width: 70%;
 }
 
 #bremen {
@@ -126,8 +124,8 @@ tbody {
 #display {
   background-color: lightgrey;
   display: grid;
-  grid-template-columns: .5% 33% 33% 33% .5%;
-  grid-template-rows: .5% 33% 33% 33% .5%;
+  grid-template-columns: 0.5% 33% 33% 33% 0.5%;
+  grid-template-rows: 0.5% 33% 33% 33% 0.5%;
   padding: 0.5vh 0.5vw;
 }
 
@@ -164,7 +162,7 @@ tbody {
 #sidebar {
   background-color: rgba(216, 20, 20, 0.808);
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  height: 100vh;
 }
 
 #sidebar > div {
@@ -176,11 +174,7 @@ tbody {
   width: 70%;
 }
 
-#table {
-  height: auto;
-}
-
 #table tr {
   border-bottom: 1px solid grey;
-  font-size: 0.8em;
+  font-size: 1.18em;
 }
