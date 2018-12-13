@@ -45,5 +45,20 @@ export const gameInfo = [
     },
     orderId: 3,
     stadium: 'Weserstadion, Bremen'
+  },
+  {
+    awayTeam: {
+      goals: 0,
+      logo: 'logos/augsburg.png',
+      name: 'FC Augsburg'
+    },
+    date: 'Saturday, December 1, 2018, 9:30 AM',
+    homeTeam: {
+      goals: 1,
+      logo: 'logos/stuttgart.png',
+      name: 'VfB Stuttgart'
+    },
+    orderId: 4,
+    stadium: 'Mercedes-Benz-Arena, Stuttgart'
   }
 ];
