@@ -7,7 +7,9 @@ const GameList = () => {
       {gameInfo.map(game => {
         return (
           <div
-            className="odd-game game"
+            className={
+              game.orderId % 2 === 1 ? 'odd-game game' : 'even-game game'
+            }
             id={`container-${game.orderId}`}
             key={game.orderId}
           >
@@ -45,7 +47,7 @@ const GameList = () => {
           <p>Saturday, December 1, 2018, 9:30 AM</p>
         </div>
         <div className="game-body">
-          <img className="team-logo" src="logos/hanover.png" />
+          <img className="team-logo" src="logos/hannover.png" />
           <div className="score">0-2</div>
           <img className="team-logo" src="logos/berlin.png" />
         </div>
