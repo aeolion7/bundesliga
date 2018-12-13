@@ -1,4 +1,5 @@
 import React from 'react';
+import Table from './Table';
 
 const Main = () => {
   return (
@@ -9,82 +10,7 @@ const Main = () => {
           <h1>Matchday 13</h1>
           <h3>Season 2018-19</h3>
         </div>
-        <table id="table">
-          <tbody>
-            <tr>
-              <td className="table-team">BVB</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">BMG</td>
-              <td className="table-points">26</td>
-            </tr>
-            <tr>
-              <td className="table-team">RBL</td>
-              <td className="table-points">25</td>
-            </tr>
-            <tr>
-              <td className="table-team">FCB</td>
-              <td className="table-points">24</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-            <tr>
-              <td className="table-team">Borussia Dortmund</td>
-              <td className="table-points">33</td>
-            </tr>
-          </tbody>
-        </table>
+      <Table />
       </div>
       <div id="display">
         <div className="odd-game game" id="container-1">
@@ -131,9 +57,17 @@ const Main = () => {
             <p>Saturday, December 1, 2018, 9:30 AM</p>
           </div>
           <div className="game-body">
-            <img id="stuttgart" className="team-logo" src="./logos/stuttgart.png" />
+            <img
+              id="stuttgart"
+              className="team-logo"
+              src="./logos/stuttgart.png"
+            />
             <div className="score">1-0</div>
-            <img id="augsburg" className="team-logo" src="./logos/augsburg.png" />
+            <img
+              id="augsburg"
+              className="team-logo"
+              src="./logos/augsburg.png"
+            />
           </div>
           <div className="game-info">
             <p>Mercedes-Benz-Arena, Stuttgart</p>
@@ -146,7 +80,11 @@ const Main = () => {
           <div className="game-body">
             <img className="team-logo" src="./logos/bvb.png" />
             <div className="score">2-0</div>
-            <img id="freiburg" className="team-logo" src="./logos/freiburg.png" />
+            <img
+              id="freiburg"
+              className="team-logo"
+              src="./logos/freiburg.png"
+            />
           </div>
           <div className="game-info">
             <p>Signal Iduna Park, Dortmund</p>
@@ -180,7 +118,11 @@ const Main = () => {
               src="./logos/rbleipzig.png"
             />
             <div className="score">2-0</div>
-            <img id="gladbach" className="team-logo" src="./logos/gladbach.png" />
+            <img
+              id="gladbach"
+              className="team-logo"
+              src="./logos/gladbach.png"
+            />
           </div>
           <div className="game-info">
             <p>Red Bull Arena, Leipzig</p>
