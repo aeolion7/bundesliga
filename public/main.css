@@ -4,6 +4,10 @@ h3 {
   margin: 0;
 }
 
+table {
+  margin: 0 auto;
+}
+
 .even-game {
   background-color: #eeeeee;
 }
@@ -68,7 +72,7 @@ h3 {
 }
 
 #bundesliga-logo {
-  padding-top: 2vh;
+  padding-top: 1vh;
   width: 100%;
 }
 
