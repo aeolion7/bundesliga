@@ -1,9 +1,33 @@
 import React from 'react';
+import { gameInfo } from '../../data/md13';
 
 const GameList = () => {
   return (
     <div id="display">
-      <div className="odd-game game" id="container-1">
+      {gameInfo.map(game => {
+        return (
+          <div
+            className="odd-game game"
+            id={`container-${game.orderId}`}
+            key={game.orderId}
+          >
+            <div className="game-info">
+              <p>{game.date}</p>
+            </div>
+            <div className="game-body">
+              <img className="team-logo" src={game.homeTeam.logo} />
+              <div className="score">
+                {game.homeTeam.goals}-{game.awayTeam.goals}
+              </div>
+              <img className="team-logo" src={game.awayTeam.logo} />
+            </div>
+            <div className="game-info">
+              <p>{game.stadium}</p>
+            </div>
+          </div>
+        );
+      })}
+      {/* <div className="odd-game game" id="container-1">
         <div className="game-info">
           <p>Friday, November 30, 2018, 2:30 PM</p>
         </div>
@@ -131,7 +155,7 @@ const GameList = () => {
         <div className="game-info">
           <p>Max-Morlock-Stadion, Nürnberg</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
