@@ -18,7 +18,7 @@ function checkForId(teamName) {
     teamName === 'SV Werder Bremen' ||
     teamName === 'VfB Stuttgart'
   ) {
-    generateId(teamName);
+    return generateId(teamName);
   }
 }
 
