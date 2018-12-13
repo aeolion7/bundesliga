@@ -1,26 +1,19 @@
 import React from 'react';
-import Table from './Table';
+import Sidebar from './Sidebar';
 
 const Main = () => {
   return (
     <>
-      <div id="sidebar">
-        <img id="bundesliga-logo" src="logos/bundesliga.png" />
-        <div>
-          <h1>Matchday 13</h1>
-          <h3>Season 2018-19</h3>
-        </div>
-      <Table />
-      </div>
+      <Sidebar />
       <div id="display">
         <div className="odd-game game" id="container-1">
           <div className="game-info">
             <p>Friday, November 30, 2018, 2:30 PM</p>
           </div>
           <div className="game-body">
-            <img className="team-logo" src="./logos/dusseldorf.png" />
+            <img className="team-logo" src="logos/dusseldorf.png" />
             <div className="score">0-1</div>
-            <img className="team-logo" src="./logos/mainz.png" />
+            <img className="team-logo" src="logos/mainz.png" />
           </div>
           <div className="game-info">
             <p>Merkur Spiel-Arena, Düsseldorf</p>
@@ -31,9 +24,9 @@ const Main = () => {
             <p>Saturday, December 1, 2018, 9:30 AM</p>
           </div>
           <div className="game-body">
-            <img className="team-logo" src="./logos/hanover.png" />
+            <img className="team-logo" src="logos/hanover.png" />
             <div className="score">0-2</div>
-            <img className="team-logo" src="./logos/berlin.png" />
+            <img className="team-logo" src="logos/berlin.png" />
           </div>
           <div className="game-info">
             <p>HDI-Arena, Hanover</p>
@@ -44,9 +37,9 @@ const Main = () => {
             <p>Saturday, December 1, 2018, 9:30 AM</p>
           </div>
           <div className="game-body">
-            <img id="bremen" className="team-logo" src="./logos/bremen.png" />
+            <img id="bremen" className="team-logo" src="logos/bremen.png" />
             <div className="score">1-2</div>
-            <img className="team-logo" src="./logos/bayern.png" />
+            <img className="team-logo" src="logos/bayern.png" />
           </div>
           <div className="game-info">
             <p>Weserstadion, Bremen</p>
@@ -60,13 +53,13 @@ const Main = () => {
             <img
               id="stuttgart"
               className="team-logo"
-              src="./logos/stuttgart.png"
+              src="logos/stuttgart.png"
             />
             <div className="score">1-0</div>
             <img
               id="augsburg"
               className="team-logo"
-              src="./logos/augsburg.png"
+              src="logos/augsburg.png"
             />
           </div>
           <div className="game-info">
@@ -78,12 +71,12 @@ const Main = () => {
             <p>Saturday, December 1, 2018, 9:30 AM</p>
           </div>
           <div className="game-body">
-            <img className="team-logo" src="./logos/bvb.png" />
+            <img className="team-logo" src="logos/bvb.png" />
             <div className="score">2-0</div>
             <img
               id="freiburg"
               className="team-logo"
-              src="./logos/freiburg.png"
+              src="logos/freiburg.png"
             />
           </div>
           <div className="game-info">
@@ -98,10 +91,10 @@ const Main = () => {
             <img
               id="hoffenheim"
               className="team-logo"
-              src="./logos/hoffenheim.png"
+              src="logos/hoffenheim.png"
             />
             <div className="score">1-1</div>
-            <img className="team-logo" src="./logos/schalke.png" />
+            <img className="team-logo" src="logos/schalke.png" />
           </div>
           <div className="game-info">
             <p>WIRSOL Rhein-Neckar-Arena, Sinsheim</p>
@@ -115,13 +108,13 @@ const Main = () => {
             <img
               id="rb-leipzig"
               className="team-logo"
-              src="./logos/rbleipzig.png"
+              src="logos/rbleipzig.png"
             />
             <div className="score">2-0</div>
             <img
               id="gladbach"
               className="team-logo"
-              src="./logos/gladbach.png"
+              src="logos/gladbach.png"
             />
           </div>
           <div className="game-info">
@@ -133,9 +126,9 @@ const Main = () => {
             <p>Sunday, December 2, 2018, 12:00 PM</p>
           </div>
           <div className="game-body">
-            <img className="team-logo" src="./logos/frankfurt.png" />
+            <img className="team-logo" src="logos/frankfurt.png" />
             <div className="score">1-2</div>
-            <img className="team-logo" src="./logos/wolfsburg.png" />
+            <img className="team-logo" src="logos/wolfsburg.png" />
           </div>
           <div className="game-info">
             <p>Commerzbank-Arena, Frankfurt am Main</p>
@@ -146,12 +139,12 @@ const Main = () => {
             <p>Monday, December 3, 2018, 2:30 PM</p>
           </div>
           <div className="game-body">
-            <img className="team-logo" src="./logos/nurnberg.png" />
+            <img className="team-logo" src="logos/nurnberg.png" />
             <div className="score">1-1</div>
             <img
               id="leverkusen"
               className="team-logo"
-              src="./logos/leverkusen.png"
+              src="logos/leverkusen.png"
             />
           </div>
           <div className="game-info">
