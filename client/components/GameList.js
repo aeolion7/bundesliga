@@ -1,5 +1,48 @@
+/* eslint-disable complexity */
 import React from 'react';
 import { gameInfo } from '../../data/md13';
+
+// checkForId checks each team name as provided through data
+// and if it matches one of the given team names, custom CSS
+// styling is applied to that team's logo
+
+function checkForId(teamName) {
+  // don't run the switch if the team isn't in it
+  if (
+    teamName === 'Bayer 04 Leverkusen' ||
+    teamName === 'Borussia Mönchengladbach' ||
+    teamName === 'FC Augsburg' ||
+    teamName === 'RB Leipzig' ||
+    teamName === 'TSV 1899 Hoffenheim' ||
+    teamName === 'SC Freiburg' ||
+    teamName === 'SV Werder Bremen' ||
+    teamName === 'VfB Stuttgart'
+  ) {
+    generateId(teamName);
+  }
+}
+
+function generateId(teamName) {
+  switch (teamName) {
+    case 'Bayer 04 Leverkusen':
+      return 'leverkusen';
+    case 'Borussia Mönchengladbach':
+      return 'gladbach';
+    case 'FC Augsburg':
+      return 'augsburg';
+    case 'RB Leipzig':
+      return 'rb-leipzig';
+    case 'TSV 1899 Hoffenheim':
+      return 'hoffenheim';
+    case 'SC Freiburg':
+      return 'freiburg';
+    case 'SV Werder Bremen':
+      return 'bremen';
+    case 'VfB Stuttgart':
+      return 'stuttgart';
+    default:
+  }
+}
 
 const GameList = () => {
   return (
@@ -17,11 +60,19 @@ const GameList = () => {
               <p>{game.date}</p>
             </div>
             <div className="game-body">
-              <img className="team-logo" src={game.homeTeam.logo} />
+              <img
+                id={checkForId(game.homeTeam.name)}
+                className="team-logo"
+                src={game.homeTeam.logo}
+              />
               <div className="score">
                 {game.homeTeam.goals}-{game.awayTeam.goals}
               </div>
-              <img className="team-logo" src={game.awayTeam.logo} />
+              <img
+                id={checkForId(game.awayTeam.name)}
+                className="team-logo"
+                src={game.awayTeam.logo}
+              />
             </div>
             <div className="game-info">
               <p>{game.stadium}</p>
