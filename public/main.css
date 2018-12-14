@@ -4,13 +4,20 @@ body {
   width: 100vw;
 }
 
-h2,
-h4 {
-  margin: 0;
+h3 {
+  display: inline;
+  margin: 0 auto;
+  text-decoration: underline;
 }
 
-hr {
-  margin: 0.5vh;
+option {
+  padding: 0;
+  text-align: center;
+}
+
+select {
+  margin: 0 auto;
+  width: 6vw;
 }
 
 table {
@@ -111,7 +118,7 @@ td:nth-child(1) {
 }
 
 #bundesliga-logo {
-  padding-top: 0.5vh;
+  padding-top: 0.75vh;
   width: 100%;
 }
 
@@ -198,15 +205,16 @@ td:nth-child(1) {
   height: 100vh;
 }
 
+#selectors {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
 #sidebar {
   background-color: rgba(216, 20, 20, 0.808);
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
-}
-
-#sidebar > div {
-  height: auto;
-  text-align: center;
 }
 
 #stuttgart {
