@@ -86,7 +86,7 @@ export const gameInfo = [
     homeTeam: {
       goals: 1,
       logo: 'logos/hoffenheim.png',
-      name: 'TSG 1899 Hoffenheim',
+      name: 'TSV 1899 Hoffenheim',
     },
     orderId: 6,
     stadium: 'WIRSOL Rhein-Neckar-Arena, Sinsheim'

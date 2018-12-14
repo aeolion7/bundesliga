@@ -32,7 +32,7 @@ function generateId(teamName) {
       return 'augsburg';
     case 'RB Leipzig':
       return 'rb-leipzig';
-    case 'TSG 1899 Hoffenheim':
+    case 'TSV 1899 Hoffenheim':
       return 'hoffenheim';
     case 'SC Freiburg':
       return 'freiburg';
@@ -60,19 +60,25 @@ const GameList = () => {
               <p>{game.date}</p>
             </div>
             <div className="game-body">
-              <img
-                id={checkForId(game.homeTeam.name)}
-                className="team-logo"
-                src={game.homeTeam.logo}
-              />
+              <div className="team-info">
+                <img
+                  id={checkForId(game.homeTeam.name)}
+                  className="team-logo"
+                  src={game.homeTeam.logo}
+                />
+                <p className="team-name">{game.homeTeam.name}</p>
+              </div>
               <div className="score">
                 {game.homeTeam.goals}-{game.awayTeam.goals}
               </div>
-              <img
-                id={checkForId(game.awayTeam.name)}
-                className="team-logo"
-                src={game.awayTeam.logo}
-              />
+              <div className="team-info">
+                <img
+                  id={checkForId(game.awayTeam.name)}
+                  className="team-logo"
+                  src={game.awayTeam.logo}
+                />
+                <p className="team-name">{game.awayTeam.name}</p>
+              </div>
             </div>
             <div className="game-info">
               <p>{game.stadium}</p>

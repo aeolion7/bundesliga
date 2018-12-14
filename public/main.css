@@ -55,11 +55,25 @@ table {
   justify-content: center;
 }
 
+.team-info {
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+
 .team-logo {
   align-self: center;
   height: 70%;
   justify-self: center;
   width: 90%;
+}
+
+.team-name {
+  align-self: center;
+  font-family: 'Arvo', serif;
+  font-size: 0.85em;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
 }
 
 #augsburg {
@@ -130,13 +144,13 @@ table {
 }
 
 #freiburg {
-  height: 90%;
-  width: 80%;
+  height: 80%;
+  width: 70%;
 }
 
 #gladbach {
-  height: 80%;
-  width: 70%;
+  height: 75%;
+  width: 60%;
 }
 
 #hoffenheim {
@@ -145,7 +159,7 @@ table {
 
 #leverkusen {
   height: 60%;
-  width: 100%;
+  width: 95%;
 }
 
 #rb-leipzig {
@@ -175,6 +189,5 @@ table {
 }
 
 #table tr {
-  border-bottom: 1px solid grey;
   font-size: 1.18em;
 }
