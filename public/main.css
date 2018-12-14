@@ -16,7 +16,7 @@ table {
   border: 3px outset rgb(170, 170, 170);
   border-radius: 10px;
   display: grid;
-  grid-template-rows: 15% 70% 15%;
+  grid-template-rows: 12% 76% 12%;
   margin: 0.3vh 0.2vw;
 }
 
@@ -51,8 +51,9 @@ table {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   font-family: 'Arvo', serif;
-  font-size: 3.3em;
+  font-size: 4em;
   justify-content: center;
+  text-shadow: 1px 1px rgb(75, 75, 75);
 }
 
 .team-info {
@@ -81,8 +82,8 @@ table {
 }
 
 #bremen {
-  height: 80%;
-  width: 70%;
+  height: 70%;
+  width: 60%;
 }
 
 #bundesliga-logo {
