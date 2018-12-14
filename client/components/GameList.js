@@ -32,7 +32,7 @@ function generateId(teamName) {
       return 'augsburg';
     case 'RB Leipzig':
       return 'rb-leipzig';
-    case 'TSV 1899 Hoffenheim':
+    case 'TSG 1899 Hoffenheim':
       return 'hoffenheim';
     case 'SC Freiburg':
       return 'freiburg';
@@ -80,7 +80,14 @@ const GameList = () => {
           </div>
         );
       })}
-      {/* <div className="odd-game game" id="container-1">
+    </div>
+  );
+};
+
+export default GameList;
+
+{
+  /* <div className="odd-game game" id="container-1">
         <div className="game-info">
           <p>Friday, November 30, 2018, 2:30 PM</p>
         </div>
@@ -208,9 +215,5 @@ const GameList = () => {
         <div className="game-info">
           <p>Max-Morlock-Stadion, Nürnberg</p>
         </div>
-      </div> */}
-    </div>
-  );
-};
-
-export default GameList;
+      </div> */
+}
