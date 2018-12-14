@@ -44,22 +44,22 @@ export const gameInfo = [
       name: 'SV Werder Bremen',
     },
     orderId: 3,
-    stadium: 'Weserstadion, Bremen'
+    stadium: 'Weserstadion, Bremen',
   },
   {
     awayTeam: {
       goals: 0,
       logo: 'logos/augsburg.png',
-      name: 'FC Augsburg'
+      name: 'FC Augsburg',
     },
     date: 'Saturday, December 1, 2018, 9:30 AM',
     homeTeam: {
       goals: 1,
       logo: 'logos/stuttgart.png',
-      name: 'VfB Stuttgart'
+      name: 'VfB Stuttgart',
     },
     orderId: 4,
-    stadium: 'Mercedes-Benz-Arena, Stuttgart'
+    stadium: 'Mercedes-Benz-Arena, Stuttgart',
   },
   {
     awayTeam: {
@@ -74,11 +74,11 @@ export const gameInfo = [
       name: 'Borussia Dortmund',
     },
     orderId: 5,
-    stadium: 'Signal Iduna Park, Dortmund'
+    stadium: 'Signal Iduna Park, Dortmund',
   },
   {
     awayTeam: {
-      goals:1,
+      goals: 1,
       logo: 'logos/schalke.png',
       name: 'FC Schalke 04',
     },
@@ -89,7 +89,7 @@ export const gameInfo = [
       name: 'TSV 1899 Hoffenheim',
     },
     orderId: 6,
-    stadium: 'WIRSOL Rhein-Neckar-Arena, Sinsheim'
+    stadium: 'WIRSOL Rhein-Neckar-Arena, Sinsheim',
   },
   {
     awayTeam: {
@@ -104,7 +104,7 @@ export const gameInfo = [
       name: 'RB Leipzig',
     },
     orderId: 7,
-    stadium: 'Red Bull Arena, Leipzig'
+    stadium: 'Red Bull Arena, Leipzig',
   },
   {
     awayTeam: {
@@ -119,7 +119,7 @@ export const gameInfo = [
       name: 'Eintracht Frankfurt',
     },
     orderId: 8,
-    stadium: 'Commerzbank-Arena, Frankfurt am Main'
+    stadium: 'Commerzbank-Arena, Frankfurt am Main',
   },
   {
     awayTeam: {
@@ -134,6 +134,81 @@ export const gameInfo = [
       name: '1. FC Nürnberg',
     },
     orderId: 9,
-    stadium: 'Max-Morlock-Stadion, Nürnberg'
-  }
+    stadium: 'Max-Morlock-Stadion, Nürnberg',
+  },
+];
+
+export const standings = [
+  {
+    team: 'Dortmund',
+    points: 33,
+  },
+  {
+    team: 'Gladbach',
+    points: 26,
+  },
+  {
+    team: 'Leipzig',
+    points: 25,
+  },
+  {
+    team: 'Bayern',
+    points: 24,
+  },
+  {
+    team: 'Frankfurt',
+    points: 23,
+  },
+  {
+    team: 'Hoffenheim',
+    points: 21,
+  },
+  {
+    team: 'Hertha Berlin',
+    points: 20,
+  },
+  {
+    team: 'Wolfsburg',
+    points: 18,
+  },
+  {
+    team: 'Werder Bremen',
+    points: 18,
+  },
+  {
+    team: 'Mainz',
+    points: 18,
+  },
+  {
+    team: 'Leverkusen',
+    points: 15,
+  },
+  {
+    team: 'Schalke',
+    points: 14,
+  },
+  {
+    team: 'Freiburg',
+    points: 14,
+  },
+  {
+    team: 'Augsburg',
+    points: 13,
+  },
+  {
+    team: 'Nürnberg',
+    points: 11,
+  },
+  {
+    team: 'Stuttgart',
+    points: 11,
+  },
+  {
+    team: 'Hannover',
+    points: 9,
+  },
+  {
+    team: 'Düsseldorf',
+    points: 9,
+  },
 ];
