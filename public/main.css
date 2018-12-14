@@ -7,7 +7,6 @@ body {
 h3 {
   display: inline;
   margin: 0 auto;
-  text-decoration: underline;
 }
 
 option {
@@ -101,8 +100,8 @@ td:nth-child(1) {
 
 .team-name {
   align-self: center;
-  font-family: 'Arvo', serif;
-  font-size: 0.85em;
+  font-family: 'Overlock', cursive;
+  font-size: 1.1em;
   font-weight: bold;
   margin: 0;
   text-align: center;
@@ -213,7 +212,7 @@ td:nth-child(1) {
 
 #sidebar {
   background-color: rgba(216, 20, 20, 0.808);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', serif;
   height: 100vh;
 }
 
