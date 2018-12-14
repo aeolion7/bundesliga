@@ -23,8 +23,9 @@ const Sidebar = () => {
           </>
         </h3>
       </div>
-      <hr />
-      <Table />
+      <div id="table">
+        <Table />
+      </div>
     </div>
   );
 };

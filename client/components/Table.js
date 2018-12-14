@@ -5,7 +5,7 @@ import TableRow from './TableRow';
 let placeId = 1;
 
 const Table = () => (
-  <table id="table">
+  <table>
     <tbody>
       {standings.map(teamObj => {
         return (

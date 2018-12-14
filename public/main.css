@@ -20,7 +20,15 @@ select {
 }
 
 table {
+  background-color: #b98282;
+  border-top: 2px solid black;
   margin: 0 auto;
+  padding-top: 0.6vh;
+  width: 100%;
+}
+
+table tr {
+  font-size: 1.45em;
 }
 
 td {
@@ -41,7 +49,7 @@ td:nth-child(1) {
   border: 3px outset rgb(170, 170, 170);
   border-radius: 10px;
   display: grid;
-  grid-template-rows: 12% 76% 12%;
+  grid-template-rows: 11% 78% 11%;
   margin: 0.3vh 0.2vw;
 }
 
@@ -75,10 +83,10 @@ td:nth-child(1) {
   display: flex;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-  font-family: 'Arvo', serif;
-  font-size: 4em;
+  font-family: 'Germania One', serif;
+  font-size: 4.75em;
   justify-content: center;
-  text-shadow: 1px 1px rgb(75, 75, 75);
+  text-shadow: 1px 1px rgb(255, 52, 52);
 }
 
 .table-logo {
@@ -101,7 +109,7 @@ td:nth-child(1) {
 .team-name {
   align-self: center;
   font-family: 'Overlock', cursive;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
   margin: 0;
   text-align: center;
@@ -207,19 +215,17 @@ td:nth-child(1) {
 #selectors {
   display: grid;
   grid-template-columns: 50% 50%;
+  padding-bottom: 1vh;
   text-align: center;
 }
 
 #sidebar {
   background-color: rgba(216, 20, 20, 0.808);
-  font-family: 'Arvo', serif;
+  font-family: 'Germania One', serif;
   height: 100vh;
+  overflow: hidden;
 }
 
 #stuttgart {
   width: 70%;
-}
-
-#table tr {
-  font-size: 1.18em;
 }
