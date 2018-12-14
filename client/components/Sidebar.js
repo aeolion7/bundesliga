@@ -6,9 +6,10 @@ const Sidebar = () => {
     <div id="sidebar">
       <img id="bundesliga-logo" src="logos/bundesliga.png" />
       <div>
-        <h1>Matchday 13</h1>
-        <h3>Season 2018-19</h3>
+        <h2>Matchday 13</h2>
+        <h4>Season 2018-19</h4>
       </div>
+      <hr />
       <Table />
     </div>
   );

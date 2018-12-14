@@ -140,74 +140,92 @@ export const gameInfo = [
 
 export const standings = [
   {
+    logo: 'logos/bvb.png',
     team: 'Dortmund',
     points: 33,
   },
   {
+    logo: 'logos/gladbach.png',
     team: 'Gladbach',
     points: 26,
   },
   {
+    logo: 'logos/rbleipzig.png',
     team: 'Leipzig',
     points: 25,
   },
   {
+    logo: 'logos/bayern.png',
     team: 'Bayern',
     points: 24,
   },
   {
+    logo: 'logos/frankfurt.png',
     team: 'Frankfurt',
     points: 23,
   },
   {
+    logo: 'logos/hoffenheim.png',
     team: 'Hoffenheim',
     points: 21,
   },
   {
-    team: 'Hertha Berlin',
+    logo: 'logos/berlin.png',
+    team: 'Berlin',
     points: 20,
   },
   {
+    logo: 'logos/wolfsburg.png',
     team: 'Wolfsburg',
     points: 18,
   },
   {
-    team: 'Werder Bremen',
+    logo: 'logos/bremen.png',
+    team: 'Bremen',
     points: 18,
   },
   {
+    logo: 'logos/mainz.png',
     team: 'Mainz',
     points: 18,
   },
   {
+    logo: 'logos/leverkusen.png',
     team: 'Leverkusen',
     points: 15,
   },
   {
+    logo: 'logos/schalke.png',
     team: 'Schalke',
     points: 14,
   },
   {
+    logo: 'logos/freiburg.png',
     team: 'Freiburg',
     points: 14,
   },
   {
+    logo: 'logos/augsburg.png',
     team: 'Augsburg',
     points: 13,
   },
   {
+    logo: 'logos/nurnberg.png',
     team: 'Nürnberg',
     points: 11,
   },
   {
+    logo: 'logos/stuttgart.png',
     team: 'Stuttgart',
     points: 11,
   },
   {
+    logo: 'logos/hannover.png',
     team: 'Hannover',
     points: 9,
   },
   {
+    logo: 'logos/dusseldorf.png',
     team: 'Düsseldorf',
     points: 9,
   },

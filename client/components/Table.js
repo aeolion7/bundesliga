@@ -13,6 +13,7 @@ const Table = () => (
             key={placeId++}
             team={teamObj.team}
             points={teamObj.points}
+            logo={teamObj.logo}
           />
         );
       })}
