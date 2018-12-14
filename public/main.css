@@ -20,15 +20,16 @@ select {
 }
 
 table {
-  background-color: #b98282;
+  background-color: #ca8e8e;
   border-top: 2px solid black;
   margin: 0 auto;
-  padding-top: 0.6vh;
+  padding-top: 1vh;
+  padding-bottom: 10vh;
   width: 100%;
 }
 
 table tr {
-  font-size: 1.45em;
+  font-size: 1.4em;
 }
 
 td {
@@ -220,7 +221,7 @@ td:nth-child(1) {
 }
 
 #sidebar {
-  background-color: rgba(216, 20, 20, 0.808);
+  background-color: #e40f00e7;
   font-family: 'Germania One', serif;
   height: 100vh;
   overflow: hidden;
