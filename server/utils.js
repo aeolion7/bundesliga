@@ -46,4 +46,16 @@ utils.generateId = teamName => {
   }
 };
 
+utils.generatePositionStatusClass = position => {
+  if (position >= 1 && position <= 4) {
+    return 'champions-league';
+  } else if (position < 7) {
+    return 'europa-league';
+  } else if (position === 16) {
+    return 'relegation-playoff';
+  } else if (position === 17 || position === 18) {
+    return 'relegation';
+  }
+};
+
 export default utils;

@@ -41,6 +41,16 @@ td:nth-child(2) {
   display: flex;
 }
 
+.champions-league {
+  color: green;
+  text-shadow: 1px 1px lightgreen;
+}
+
+.europa-league {
+  color: turquoise;
+  text-shadow: 1px 1px blue
+}
+
 .even-game {
   background-color: #eeeeee;
 }
@@ -76,6 +86,16 @@ td:nth-child(2) {
 
 .odd-game {
   background-color: #bebebe;
+}
+
+.relegation {
+  color: red;
+  text-shadow: 1px 1px black;
+}
+
+.relegation-playoff {
+  color: salmon;
+  text-shadow: 1px 1px black;
 }
 
 .score {
