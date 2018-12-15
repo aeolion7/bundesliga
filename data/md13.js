@@ -86,7 +86,7 @@ export const gameInfo = [
     homeTeam: {
       goals: 1,
       logo: 'logos/hoffenheim.png',
-      name: 'TSV 1899 Hoffenheim',
+      name: 'Hoffenheim',
     },
     orderId: 6,
     stadium: 'WIRSOL Rhein-Neckar-Arena, Sinsheim',
@@ -95,7 +95,7 @@ export const gameInfo = [
     awayTeam: {
       goals: 0,
       logo: 'logos/gladbach.png',
-      name: 'Borussia Mönchengladbach',
+      name: 'Borussia M\'Gladbach',
     },
     date: 'Sunday, December 2, 2018, 9:30 AM',
     homeTeam: {

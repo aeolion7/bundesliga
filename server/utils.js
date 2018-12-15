@@ -12,10 +12,10 @@ utils.checkForId = teamName => {
   // don't run the switch if the team isn't in it
   if (
     teamName === 'Bayer 04 Leverkusen' ||
-    teamName === 'Borussia Mönchengladbach' ||
+    teamName === 'Borussia M\'Gladbach' ||
     teamName === 'FC Augsburg' ||
+    teamName === 'Hoffenheim' ||
     teamName === 'RB Leipzig' ||
-    teamName === 'TSV 1899 Hoffenheim' ||
     teamName === 'SC Freiburg' ||
     teamName === 'SV Werder Bremen' ||
     teamName === 'VfB Stuttgart'
@@ -28,14 +28,14 @@ utils.generateId = teamName => {
   switch (teamName) {
     case 'Bayer 04 Leverkusen':
       return 'leverkusen';
-    case 'Borussia Mönchengladbach':
+    case 'Borussia M\'Gladbach':
       return 'gladbach';
     case 'FC Augsburg':
       return 'augsburg';
+      case 'Hoffenheim':
+        return 'hoffenheim';
     case 'RB Leipzig':
       return 'rb-leipzig';
-    case 'TSV 1899 Hoffenheim':
-      return 'hoffenheim';
     case 'SC Freiburg':
       return 'freiburg';
     case 'SV Werder Bremen':

@@ -9,21 +9,24 @@ h3 {
   margin: 0 auto;
 }
 
-option {
-  padding: 0;
-  text-align: center;
-}
-
 select {
+  background-color: #d1ccdc;
+  border: 1px outset grey;
+  color: black;
+  height: 2.5vh;
   margin: 0 auto;
   width: 6vw;
 }
 
+select:focus {
+  outline: none;
+}
+
 table {
-  background-color: #d1ccdc;
+  background-color: #a5abc4;
   border-top: 2px solid black;
   margin: 0 auto;
-  padding-top: 1vh;
+  padding-top: 0.5vh;
   padding-bottom: 10vh;
   width: 100%;
 }
@@ -90,10 +93,12 @@ td:nth-child(2) {
 
 .relegation {
   color: red;
+  text-shadow: 1px 1px rgb(163, 0, 0);
 }
 
 .relegation-playoff {
   color: salmon;
+  text-shadow: 1px 1px rgb(39, 39, 39);
 }
 
 .score {
@@ -114,7 +119,7 @@ td:nth-child(2) {
 
 .team-info {
   display: grid;
-  grid-template-rows: 80% 20%;
+  grid-template-rows: 90% 10%;
 }
 
 .team-logo {
@@ -193,7 +198,7 @@ td:nth-child(2) {
 
 #display {
   background-color: #2e4057;
-  border-left: 3px groove white;
+  border-left: 3px groove lightgrey;
   display: grid;
   grid-template-columns: 0.5% 33% 33% 33% 0.5%;
   grid-template-rows: 0.5% 33% 33% 33% 0.5%;
