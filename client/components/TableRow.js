@@ -1,8 +1,11 @@
 import React from 'react';
 
+let tablePosition = 1;
+
 const TableRow = props => {
   return (
     <tr>
+      <td>{tablePosition++}.</td>
       <td>
         <img className="table-logo" src={props.logo} />
       </td>

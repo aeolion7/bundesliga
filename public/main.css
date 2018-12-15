@@ -20,7 +20,7 @@ select {
 }
 
 table {
-  background-color: #ca8e8e;
+  background-color: #949494;
   border-top: 2px solid black;
   margin: 0 auto;
   padding-top: 1vh;
@@ -37,9 +37,8 @@ td {
   vertical-align: center;
 }
 
-td:nth-child(1) {
+td:nth-child(2) {
   display: flex;
-  align-items: center;
 }
 
 .even-game {
@@ -76,7 +75,7 @@ td:nth-child(1) {
 }
 
 .odd-game {
-  background-color: #cccccc;
+  background-color: #bebebe;
 }
 
 .score {
@@ -91,8 +90,8 @@ td:nth-child(1) {
 }
 
 .table-logo {
-  height: 3.25vh;
-  width: 1.5vw;
+  height: 3.4vh;
+  width: 1.4vw;
 }
 
 .team-info {
@@ -126,7 +125,6 @@ td:nth-child(1) {
 }
 
 #bundesliga-logo {
-  padding-top: 0.75vh;
   width: 100%;
 }
 
@@ -177,6 +175,7 @@ td:nth-child(1) {
 
 #display {
   background-color: lightgrey;
+  border-left: 3px groove grey;
   display: grid;
   grid-template-columns: 0.5% 33% 33% 33% 0.5%;
   grid-template-rows: 0.5% 33% 33% 33% 0.5%;
