@@ -20,7 +20,7 @@ select {
 }
 
 table {
-  background-color: #949494;
+  background-color: #d1ccdc;
   border-top: 2px solid black;
   margin: 0 auto;
   padding-top: 1vh;
@@ -47,8 +47,8 @@ td:nth-child(2) {
 }
 
 .europa-league {
-  color: turquoise;
-  text-shadow: 1px 1px blue
+  color: blue;
+  text-shadow: 1px 1px turquoise;
 }
 
 .even-game {
@@ -90,12 +90,10 @@ td:nth-child(2) {
 
 .relegation {
   color: red;
-  text-shadow: 1px 1px black;
 }
 
 .relegation-playoff {
   color: salmon;
-  text-shadow: 1px 1px black;
 }
 
 .score {
@@ -194,8 +192,8 @@ td:nth-child(2) {
 }
 
 #display {
-  background-color: lightgrey;
-  border-left: 3px groove grey;
+  background-color: #2e4057;
+  border-left: 3px groove white;
   display: grid;
   grid-template-columns: 0.5% 33% 33% 33% 0.5%;
   grid-template-rows: 0.5% 33% 33% 33% 0.5%;
