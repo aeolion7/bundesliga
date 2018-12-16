@@ -110,9 +110,9 @@ td:nth-child(2) {
 
 .score {
   align-items: center;
-  display: flex;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  display: flex;
   font-family: 'Germania One', serif;
   font-size: 4.75em;
   justify-content: center;
