@@ -33,8 +33,6 @@ table {
   background-color: #a5abc4;
   border-top: 2px solid black;
   margin: 0 auto;
-  padding-top: 0.5vh;
-  padding-bottom: 10vh;
   width: 100%;
 }
 
@@ -160,6 +158,7 @@ td:nth-child(2) {
 }
 
 #bundesliga-logo {
+  flex: 3;
   width: 100%;
 }
 
@@ -256,6 +255,8 @@ td:nth-child(2) {
 
 #sidebar {
   background-color: #e40f00e7;
+  display: flex;
+  flex-direction: column;
   font-family: 'Germania One', serif;
   height: 100vh;
   overflow: hidden;
