@@ -7,7 +7,7 @@ const TableRow = props => {
   return (
     <tr>
       <td className={utils.generatePositionStatusClass(tablePosition)}>
-        {tablePosition++}.
+        {tablePosition++}
       </td>
       <td>
         <img className="table-logo" src={props.logo} />
