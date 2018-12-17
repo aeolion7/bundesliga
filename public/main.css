@@ -254,7 +254,7 @@ td:nth-child(2) {
 
 #selectors {
   display: grid;
-  grid-template-columns: 40% 20% 40%;
+  grid-template-columns: 38% 38% 24%;
   padding-bottom: 1vh;
   text-align: center;
 }
