@@ -17,6 +17,11 @@ button:focus {
   outline: none;
 }
 
+button:hover {
+  border: 1px solid black;
+  box-shadow: 0px 0px 20px white;
+}
+
 select {
   background-color: #d1ccdc;
   border: 1px outset grey;
@@ -249,13 +254,12 @@ td:nth-child(2) {
 
 #selectors {
   display: grid;
-  grid-template-columns: 40% 40% 20%;
+  grid-template-columns: 40% 20% 40%;
   padding-bottom: 1vh;
   text-align: center;
 }
 
 #selectors div {
-  display: inline;
   font-size: 1.2em;
   margin: 0 auto;
 }
