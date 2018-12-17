@@ -6,22 +6,22 @@ const Sidebar = () => {
     <div id="sidebar">
       <img id="bundesliga-logo" src="logos/bundesliga.png" />
       <div id="selectors">
-        <h3>
+        <div>
           <>
             Season
             <select>
               <option>2018-19</option>
             </select>
           </>
-        </h3>
-        <h3>
+        </div>
+        <div>
           <>
             Matchday
             <select>
               <option>13</option>
             </select>
           </>
-        </h3>
+        </div>
       </div>
       <div id="table">
         <Table />
