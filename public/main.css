@@ -125,7 +125,7 @@ td:nth-child(2) {
 
 .table-logo {
   height: 3.4vh;
-  width: 65%;
+  width: 60%;
 }
 
 .table-team:hover {
@@ -249,7 +249,7 @@ td:nth-child(2) {
 
 #root-container {
   display: grid;
-  grid-template-columns: minmax(210px, 15vw) 85vw;
+  grid-template-columns: minmax(215px, 15vw) 85vw;
   height: 100vh;
 }
 
