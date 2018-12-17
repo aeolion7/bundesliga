@@ -22,6 +22,7 @@ const Sidebar = () => {
             </select>
           </>
         </div>
+        <button type="submit" />
       </div>
       <div id="table">
         <Table />

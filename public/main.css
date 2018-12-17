@@ -4,6 +4,19 @@ body {
   width: 100vw;
 }
 
+button {
+  align-self: center;
+  background-image: url('./soccerball.png');
+  border-radius: 40px;
+  height: 5vh;
+  justify-self: center;
+  width: 5vh;
+}
+
+button:focus {
+  outline: none;
+}
+
 select {
   background-color: #d1ccdc;
   border: 1px outset grey;
@@ -139,7 +152,8 @@ td:nth-child(2) {
   width: 70%;
 }
 
-#bremen, #bremen-table {
+#bremen,
+#bremen-table {
   height: 70%;
   width: 60%;
 }
@@ -235,7 +249,7 @@ td:nth-child(2) {
 
 #selectors {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 40% 20%;
   padding-bottom: 1vh;
   text-align: center;
 }
