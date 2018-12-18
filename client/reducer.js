@@ -19,7 +19,8 @@ export const getGamesFromAPI = (seasonId, matchdayId) => {
         },
       }
     );
-    dispatch(gotGames(data));
+    const { matches } = data;
+    dispatch(gotGames(matches));
   };
 };
 

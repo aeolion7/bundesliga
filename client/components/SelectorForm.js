@@ -20,9 +20,7 @@ class SelectorForm extends Component {
   }
 
   handleClick() {
-    const seasonId = this.state.selectedSeason;
-    const matchdayId = this.state.selectedMatchday;
-    this.props.getGames(seasonId, matchdayId);
+    this.props.getGames(this.state.selectedSeason, this.state.selectedMatchday);
   }
 
   render() {
