@@ -1,5 +1,6 @@
 import axios from 'axios';
 import 'babel-polyfill';
+import { API_TOKEN } from '../secrets';
 
 // const CHANGE_MATCHDAY = 'CHANGE_MATCHDAY';
 // const CHANGE_SEASON = 'CHANGE_SEASON';
@@ -23,7 +24,12 @@ const gotGames = games => ({
 export const getGamesFromAPI = () => {
   return async dispatch => {
     const { data } = await axios.get(
-      'https://api.football-data.org/v2/competitions/BL1/matches?matchday=13'
+      'https://api.football-data.org/v2/competitions/BL1/matches?matchday=13',
+      {
+        headers: {
+          'X-Auth-Token': API_TOKEN,
+        },
+      }
     );
     console.log(data);
   };
