@@ -5,7 +5,7 @@ body {
 }
 
 button {
-  align-self: center;
+  align-self: end;
   background-image: url('./soccerball.png');
   border-radius: 40px;
   height: 5vh;
@@ -18,7 +18,7 @@ button:focus {
 }
 
 button:hover {
-  border: 1px solid black;
+  border: 1px solid red;
   box-shadow: 0px 0px 20px white;
 }
 
