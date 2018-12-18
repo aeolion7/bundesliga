@@ -20,7 +20,9 @@ class SelectorForm extends Component {
   }
 
   handleClick() {
-    this.props.test();
+    const seasonId = this.state.selectedSeason;
+    const matchdayId = this.state.selectedMatchday;
+    this.props.getGames(seasonId, matchdayId);
   }
 
   render() {
@@ -30,6 +32,11 @@ class SelectorForm extends Component {
           <>
             Season
             <select onChange={this.handleChange} name="selectedSeason">
+              <option>--</option>
+              <option value="2013">2013-14</option>
+              <option value="2014">2014-15</option>
+              <option value="2015">2015-16</option>
+              <option value="2016">2016-17</option>
               <option value="2017">2017-18</option>
               <option value="2018">2018-19</option>
             </select>
@@ -39,6 +46,7 @@ class SelectorForm extends Component {
           <>
             Matchday
             <select onChange={this.handleChange} name="selectedMatchday">
+              <option>--</option>
               <option value="12">12</option>
               <option value="13">13</option>
             </select>
@@ -51,9 +59,12 @@ class SelectorForm extends Component {
 }
 
 const mapDispatchToProps = dispatch => ({
-  test: () => {
-    dispatch(getGamesFromAPI());
+  getGames: (seasonId, matchdayId) => {
+    dispatch(getGamesFromAPI(seasonId, matchdayId));
   },
 });
 
-export default connect(null, mapDispatchToProps)(SelectorForm);
+export default connect(
+  null,
+  mapDispatchToProps
+)(SelectorForm);
