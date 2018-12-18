@@ -1,4 +1,5 @@
 import axios from 'axios';
+import 'babel-polyfill';
 
 // const CHANGE_MATCHDAY = 'CHANGE_MATCHDAY';
 // const CHANGE_SEASON = 'CHANGE_SEASON';
