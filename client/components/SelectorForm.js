@@ -47,8 +47,15 @@ class SelectorForm extends Component {
             Matchday
             <select onChange={this.handleChange} name="selectedMatchday">
               <option>--</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
+              {Array(34)
+                .fill('')
+                .map((el, index) => {
+                  return (
+                    <option value={index + 1} key={`matchday-${index + 1}`}>
+                      {index + 1}
+                    </option>
+                  );
+                })}
             </select>
           </>
         </div>
