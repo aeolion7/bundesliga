@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getGamesFromAPI } from '../reducer';
+import { getGamesFromAPI, getTableFromAPI } from '../reducer';
 
 class SelectorForm extends Component {
   constructor(props) {
@@ -11,6 +11,10 @@ class SelectorForm extends Component {
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
+  }
+
+  componentDidMount() {
+    this.props.getTable();
   }
 
   handleChange(evt) {
@@ -69,6 +73,9 @@ class SelectorForm extends Component {
 const mapDispatchToProps = dispatch => ({
   getGames: (seasonId, matchdayId) => {
     dispatch(getGamesFromAPI(seasonId, matchdayId));
+  },
+  getTable: () => {
+    dispatch(getTableFromAPI());
   },
 });
 

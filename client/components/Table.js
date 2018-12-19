@@ -1,24 +1,33 @@
-import React from 'react';
-import { standings } from '../../data/md13';
+import React, { Component } from 'react';
+import { gameInfo } from '../../data/md13';
 import TableRow from './TableRow';
+import { connect } from 'react-redux';
+import utils from '../../server/utils';
 
-let placeId = 1;
+class Table extends Component {
+  render() {
+    return (
+      <table>
+        <tbody>
+          {this.props.table.map(teamObj => {
+            const teamName = utils.shortenName(teamObj.team.name);
+            return (
+              <TableRow
+                key={teamObj.position}
+                team={utils.generateTableName(teamName)}
+                points={teamObj.points}
+                logo={'logos/' + utils.generateLogo(teamName)}
+              />
+            );
+          })}
+        </tbody>
+      </table>
+    );
+  }
+}
 
-const Table = () => (
-  <table>
-    <tbody>
-      {standings.map(teamObj => {
-        return (
-          <TableRow
-            key={placeId++}
-            team={teamObj.team}
-            points={teamObj.points}
-            logo={teamObj.logo}
-          />
-        );
-      })}
-    </tbody>
-  </table>
-);
+const mapStateToProps = state => ({
+  table: state.table,
+});
 
-export default Table;
+export default connect(mapStateToProps)(Table);

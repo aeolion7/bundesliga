@@ -106,6 +106,53 @@ utils.generatePositionStatusClass = position => {
   }
 };
 
+utils.generateTableName = teamName => {
+  switch (teamName) {
+    case 'FC Augsburg':
+      return 'Augsburg';
+    case 'FC Bayern München':
+      return 'Bayern';
+    case 'Hertha BSC':
+      return 'Berlin';
+    case 'SV Werder Bremen':
+      return 'Bremen';
+    case 'Borussia Dortmund':
+      return 'Dortmund';
+    case 'Fortuna Düsseldorf':
+      return 'Düsseldorf';
+    case 'Eintracht Frankfurt':
+      return 'Frankfurt';
+    case 'SC Freiburg':
+      return 'Freiburg';
+    case "Borussia M'Gladbach":
+      return 'Gladbach';
+    case 'Hamburger SV':
+      return 'Hamburg';
+    case 'Hannover 96':
+      return 'Hannover';
+    case 'Hoffenheim':
+      return 'Hoffenheim';
+    case '1. FC Köln':
+      return 'Köln';
+    case 'Bayer 04 Leverkusen':
+      return 'Leverkusen';
+    case '1. FSV Mainz 05':
+      return 'Mainz';
+    case '1. FC Nürnberg':
+      return 'Nürnberg';
+    case 'RB Leipzig':
+      return 'Leipzig';
+    case 'FC Schalke 04':
+      return 'Schalke';
+    case 'VfB Stuttgart':
+      return 'Stuttgart';
+    case 'VfL Wolfsburg':
+      return 'Wolfsburg';
+    default:
+      return 'Team not found!';
+  }
+};
+
 utils.shortenName = teamName => {
   if (teamName === 'Borussia Mönchengladbach') {
     return "Borussia M'Gladbach";
