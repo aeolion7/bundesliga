@@ -1,5 +1,6 @@
 import React from 'react';
 import Team from './Team';
+import utils from '../../server/utils';
 
 const Game = props => {
   return (
@@ -8,7 +9,7 @@ const Game = props => {
       id={`container-${props.orderId}`}
     >
       <div className="game-info">
-        <p>{props.date}</p>
+        <p>{utils.generateDateString(props.date)}</p>
       </div>
       <div className="game-body">
         <Team team={props.homeTeam} />
