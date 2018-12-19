@@ -18,6 +18,7 @@ class GameList extends Component {
               date={game.utcDate}
               homeTeam={game.homeTeam}
               orderId={index + 1}
+              score={game.score.fullTime}
               stadium={game.stadium}
             />
           );

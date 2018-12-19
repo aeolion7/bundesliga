@@ -13,7 +13,7 @@ const Game = props => {
       <div className="game-body">
         <Team team={props.homeTeam} />
         <div className="score">
-          {props.homeTeam.goals}-{props.awayTeam.goals}
+          {props.score.homeTeam}-{props.score.awayTeam}
         </div>
         <Team team={props.awayTeam} />
       </div>
