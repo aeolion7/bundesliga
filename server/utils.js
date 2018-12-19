@@ -41,7 +41,9 @@ utils.generateDateString = utcDate => {
     ' ' +
     dateObj.getDate() +
     ', ' +
-    dateObj.getFullYear()
+    dateObj.getFullYear() +
+    ', ' +
+    generateESTTime(dateObj)
   );
 };
 
@@ -170,4 +172,27 @@ function generateFullMonth(monthNum) {
       return 'December';
     default:
   }
+}
+
+function generateESTTime(dateObj) {
+  const dateHours = dateObj.getHours();
+  let hours, period;
+  let minutes = dateObj.getMinutes().toString();
+
+  if (dateHours > 12) {
+    hours = dateHours - 12;
+    period = 'PM';
+  } else if (dateHours === 12) {
+    hours = dateHours;
+    period = 'PM';
+  } else {
+    hours = dateHours;
+    period = 'AM';
+  }
+
+  if (minutes.length < 2) {
+    minutes = '0' + minutes;
+  }
+
+  return hours + ':' + minutes + ' ' + period;
 }
