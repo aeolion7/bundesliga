@@ -6,7 +6,6 @@ import store from '../store';
 class GameList extends Component {
   render() {
     const { games } = store.getState();
-    // TODO: change score styling to include game.halfTime
     return (
       <div id="display">
         {games.map((game, index) => {
@@ -18,7 +17,8 @@ class GameList extends Component {
               homeTeam={game.homeTeam}
               orderId={index + 1}
               score={game.score.fullTime}
-              referee={game.referees[0].name}
+              scoreAtHalf={game.score.halfTime}
+              referee={game.referees[0].name || 'Referee Data Unknown'}
             />
           );
         })}
@@ -28,7 +28,7 @@ class GameList extends Component {
 }
 
 const mapStateToProps = state => ({
-  games: state.games
+  games: state.games,
 });
 
 export default connect(mapStateToProps)(GameList);

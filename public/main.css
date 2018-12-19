@@ -98,6 +98,11 @@ td:nth-child(2) {
   margin: 0;
 }
 
+.halftime-score {
+  font-size: 0.4em;
+  margin: -2vh;
+}
+
 .odd-game {
   background-color: #bebebe;
 }
@@ -117,6 +122,7 @@ td:nth-child(2) {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   display: flex;
+  flex-direction: column;
   font-family: 'Germania One', serif;
   font-size: 4.75em;
   justify-content: center;

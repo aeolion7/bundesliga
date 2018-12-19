@@ -15,6 +15,9 @@ const Game = props => {
         <Team team={props.homeTeam} />
         <div className="score">
           {props.score.homeTeam}-{props.score.awayTeam}
+          <p className="halftime-score">
+            ({props.scoreAtHalf.homeTeam}-{props.scoreAtHalf.awayTeam})
+          </p>
         </div>
         <Team team={props.awayTeam} />
       </div>
