@@ -64,6 +64,13 @@ td:nth-child(2) {
   text-shadow: 1px 1px turquoise;
 }
 
+#disabled-button {
+  box-shadow: none;
+  border: 1px solid black;
+  background-color: grey;
+  background-image: none;
+}
+
 .even-game {
   background-color: #eeeeee;
 }

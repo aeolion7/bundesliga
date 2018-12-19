@@ -24,13 +24,15 @@ class SelectorForm extends Component {
   }
 
   render() {
+    const isButtonDisabled =
+      this.state.selectedMatchday === '' || this.state.selectedSeason === '';
     return (
       <div id="selectors">
         <div>
           <>
             Season
             <select onChange={this.handleChange} name="selectedSeason">
-              <option>--</option>
+              <option value="">--</option>
               <option value="2017">2017-18</option>
               <option value="2018">2018-19</option>
             </select>
@@ -40,7 +42,7 @@ class SelectorForm extends Component {
           <>
             Matchday
             <select onChange={this.handleChange} name="selectedMatchday">
-              <option>--</option>
+              <option value="">--</option>
               {Array(34)
                 .fill('')
                 .map((el, index) => {
@@ -53,8 +55,12 @@ class SelectorForm extends Component {
             </select>
           </>
         </div>
-        {/* TODO: disable button if at least one field is empty */}
-        <button type="button" onClick={this.handleClick} />
+        <button
+          disabled={isButtonDisabled}
+          id={isButtonDisabled ? 'disabled-button' : undefined}
+          type="button"
+          onClick={this.handleClick}
+        />
       </div>
     );
   }
