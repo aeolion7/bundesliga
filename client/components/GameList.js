@@ -2,6 +2,8 @@ import React from 'react';
 import { gameInfo } from '../../data/md13';
 import Game from './Game';
 
+// TODO: mapStateToProps to access matches
+
 const GameList = () => {
   return (
     <div id="display">

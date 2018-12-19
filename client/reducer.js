@@ -11,6 +11,7 @@ const gotGames = games => ({
 
 export const getGamesFromAPI = (seasonId, matchdayId) => {
   return async dispatch => {
+    // TODO: API calls for seasons 2016 and earlier do not work
     const { data } = await axios.get(
       `https://api.football-data.org/v2/competitions/BL1/matches?season=${seasonId}&matchday=${matchdayId}`,
       {
