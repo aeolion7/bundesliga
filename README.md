@@ -10,14 +10,16 @@ Football data provided by the [Football-Data.org API](https://www.football-data.
 
 In order to use the application, you will need an API key. Please follow these instructions:
 
-1. Sign up using the above link (it's free!) and you will be given an API key. It can be accessed at any time in the "My Account" tab.
-2. In your terminal, navigate to the project directory and type `npm install`.
-3. Create a file in the top-level directory of this application called "secrets.js".
-4. In secrets.js, paste the following code:
-`export const API_TOKEN = 'YOUR_API_TOKEN_HERE';`
-5. In the terminal, type `npm run start-dev`.
-6. In your browser, navigate to "localhost:3000".
-7. Look at some German football data!
+1. In your terminal, navigate to the directory where you would like to place this application.
+2. Clone this repository onto your local machine: `git clone https://github.com/aeolion7/bundesliga.git`.
+3. In your terminal, navigate to the project directory and type `npm install`.
+4. Sign up using the above link (it's free!) and you will be given an API key. It can be accessed at any time in the "My Account" tab.
+5. Create a file in the top-level directory of this application called "secrets.js".
+6. In secrets.js, paste the following line of code:
+   `export const API_TOKEN = 'YOUR_API_TOKEN_HERE';`
+7. In the terminal, type `npm run start-dev`.
+8. In your browser, navigate to "localhost:3000".
+9. Look at some German football data!
 
 ## Functionality
 
@@ -35,4 +37,8 @@ Click the button to load and view the data.
 
 Different data can be viewed at any time by selecting a different season and/or matchday and clicking the button.
 
-![picture](./secondselect)
+![picture](./secondselect.png)
+
+---
+
+Technologies used: Node.js, Express.js, React.js, Redux.js, Webpack
