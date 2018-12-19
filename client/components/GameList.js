@@ -19,7 +19,7 @@ class GameList extends Component {
               homeTeam={game.homeTeam}
               orderId={index + 1}
               score={game.score.fullTime}
-              stadium={game.stadium}
+              referee={game.referees[0].name}
             />
           );
         })}

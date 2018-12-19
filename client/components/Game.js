@@ -19,7 +19,7 @@ const Game = props => {
         <Team team={props.awayTeam} />
       </div>
       <div className="game-info">
-        <p>{props.stadium}</p>
+        <p>Referee: {props.referee}</p>
       </div>
     </div>
   );

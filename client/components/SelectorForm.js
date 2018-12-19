@@ -53,7 +53,7 @@ class SelectorForm extends Component {
             </select>
           </>
         </div>
-        // TODO: disable button if at least one field is empty
+        {/* TODO: disable button if at least one field is empty */}
         <button type="button" onClick={this.handleClick} />
       </div>
     );
