@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { gameInfo } from '../../data/md13';
 import TableRow from './TableRow';
 import { connect } from 'react-redux';
 import utils from '../../server/utils';

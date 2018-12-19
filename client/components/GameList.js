@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { gameInfo } from '../../data/md13';
 import Game from './Game';
 import { connect } from 'react-redux';
 import store from '../store';
