@@ -158,8 +158,7 @@ td:nth-child(2) {
   width: 70%;
 }
 
-#bremen,
-#bremen-table {
+#bremen {
   height: 70%;
   width: 60%;
 }
@@ -224,13 +223,18 @@ td:nth-child(2) {
 }
 
 #freiburg {
-  height: 80%;
-  width: 70%;
+  height: 60%;
+  width: 90%;
 }
 
 #gladbach {
   height: 75%;
   width: 60%;
+}
+
+#hamburg {
+  height: 70%;
+  width: 90%;
 }
 
 #hoffenheim {

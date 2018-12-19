@@ -4,10 +4,38 @@
 
 const utils = {};
 
+// checkForId checks each team name as provided through data
+// and if it matches one of the given team names, an ID and custom CSS
+// styling is applied to that team's logo via React component
+
+utils.checkForId = teamName => {
+  switch (teamName) {
+    case 'Bayer 04 Leverkusen':
+      return 'leverkusen';
+    case "Borussia M'Gladbach":
+      return 'gladbach';
+    case 'FC Augsburg':
+      return 'augsburg';
+    case 'Hamburger SV':
+      return 'hamburg';
+    case 'Hoffenheim':
+      return 'hoffenheim';
+    case 'RB Leipzig':
+      return 'rb-leipzig';
+    case 'SC Freiburg':
+      return 'freiburg';
+    case 'SV Werder Bremen':
+      return 'bremen';
+    case 'VfB Stuttgart':
+      return 'stuttgart';
+    default:
+  }
+};
+
 utils.generateLogo = teamName => {
   switch (teamName) {
     case 'FC Augsburg':
-      return '/augsburg.png';
+      return 'augsburg.png';
     case 'FC Bayern München':
       return 'bayern.png';
     case 'Hertha BSC':
@@ -24,10 +52,14 @@ utils.generateLogo = teamName => {
       return 'freiburg.png';
     case "Borussia M'Gladbach":
       return 'gladbach.png';
+    case 'Hamburger SV':
+      return 'hamburg.png';
     case 'Hannover 96':
       return 'hannover.png';
     case 'Hoffenheim':
       return 'hoffenheim.png';
+    case '1. FC Köln':
+      return 'koln.png';
     case 'Bayer 04 Leverkusen':
       return 'leverkusen.png';
     case '1. FSV Mainz 05':
@@ -44,48 +76,6 @@ utils.generateLogo = teamName => {
       return 'wolfsburg.png';
     default:
       return null;
-  }
-};
-
-// checkForId checks each team name as provided through data
-// and if it matches one of the given team names, an ID and custom CSS
-// styling is applied to that team's logo via React component
-
-utils.checkForId = teamName => {
-  // don't run the switch if the team isn't in it
-  if (
-    teamName === 'Bayer 04 Leverkusen' ||
-    teamName === "Borussia M'Gladbach" ||
-    teamName === 'FC Augsburg' ||
-    teamName === 'Hoffenheim' ||
-    teamName === 'RB Leipzig' ||
-    teamName === 'SC Freiburg' ||
-    teamName === 'SV Werder Bremen' ||
-    teamName === 'VfB Stuttgart'
-  ) {
-    return utils.generateId(teamName);
-  }
-};
-
-utils.generateId = teamName => {
-  switch (teamName) {
-    case 'Bayer 04 Leverkusen':
-      return 'leverkusen';
-    case "Borussia M'Gladbach":
-      return 'gladbach';
-    case 'FC Augsburg':
-      return 'augsburg';
-    case 'Hoffenheim':
-      return 'hoffenheim';
-    case 'RB Leipzig':
-      return 'rb-leipzig';
-    case 'SC Freiburg':
-      return 'freiburg';
-    case 'SV Werder Bremen':
-      return 'bremen';
-    case 'VfB Stuttgart':
-      return 'stuttgart';
-    default:
   }
 };
 
