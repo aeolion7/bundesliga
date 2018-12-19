@@ -1,13 +1,11 @@
 import React from 'react';
 import utils from '../../server/utils';
 
-let tablePosition = 1;
-
 const TableRow = props => {
   return (
     <tr>
-      <td className={utils.generatePositionStatusClass(tablePosition)}>
-        {tablePosition++}.
+      <td className={utils.generatePositionStatusClass(props.position)}>
+        {props.position}.
       </td>
       <td>
         <img className="table-logo" src={props.logo} />

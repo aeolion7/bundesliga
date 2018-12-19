@@ -14,6 +14,7 @@ class Table extends Component {
               <TableRow
                 key={teamObj.position}
                 team={utils.generateTableName(teamName)}
+                position={teamObj.position}
                 points={teamObj.points}
                 logo={'logos/' + utils.generateLogo(teamName)}
               />

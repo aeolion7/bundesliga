@@ -64,13 +64,6 @@ td:nth-child(2) {
   text-shadow: 1px 1px turquoise;
 }
 
-#disabled-button {
-  box-shadow: none;
-  border: 1px solid black;
-  background-color: grey;
-  background-image: none;
-}
-
 .even-game {
   background-color: #eeeeee;
 }
@@ -220,6 +213,13 @@ td:nth-child(2) {
   grid-row-start: 4;
 }
 
+#disabled-button {
+  box-shadow: none;
+  border: 1px solid black;
+  background-color: grey;
+  background-image: none;
+}
+
 #display {
   background-color: #2e4057;
   border-left: 3px groove lightgrey;
@@ -295,4 +295,8 @@ td:nth-child(2) {
 
 #stuttgart {
   width: 70%;
+}
+
+#table-loading {
+  height: 70vh;
 }
