@@ -1,26 +1,34 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { gameInfo } from '../../data/md13';
 import Game from './Game';
+import { connect } from 'react-redux';
+import store from '../store';
 
-// TODO: mapStateToProps to access matches
+class GameList extends Component {
+  render() {
+    const { games } = store.getState();
+    // TODO: change score styling to include game.halfTime
+    return (
+      <div id="display">
+        {games.map((game, index) => {
+          return (
+            <Game
+              key={game.id}
+              awayTeam={game.awayTeam}
+              date={game.utcDate}
+              homeTeam={game.homeTeam}
+              orderId={index + 1}
+              stadium={game.stadium}
+            />
+          );
+        })}
+      </div>
+    );
+  }
+}
 
-const GameList = () => {
-  return (
-    <div id="display">
-      {gameInfo.map(game => {
-        return (
-          <Game
-            key={game.orderId}
-            awayTeam={game.awayTeam}
-            date={game.date}
-            homeTeam={game.homeTeam}
-            orderId={game.orderId}
-            stadium={game.stadium}
-          />
-        );
-      })}
-    </div>
-  );
-};
+const mapStateToProps = state => ({
+  games: state.games
+});
 
-export default GameList;
+export default connect(mapStateToProps)(GameList);
