@@ -23,11 +23,13 @@ In order to use the application, you will need an API key. Please follow these i
 
 ## Functionality
 
-Upon starting the application, the application will load the current Bundesliga table for you.
+Upon opening the application in your browser, the current Bundesliga table will be loaded for you.
 
 ![picture](./initial.png)
 
-Use the two drop-down menus to select a season and matchday of your choice. Currently the app can only load data from the 2017-18 and 2018-19 seasons. Once a season and matchday have been selected, a button will appear.
+Use the two dropdown menus to select a season and matchday that correspond to the data you would like to view. Once a season and matchday have been selected, a button will appear.
+
+Note: Currently the app can only load data from the 2017-18 and 2018-19 seasons.
 
 ![picture](./selecting.png)
 
