@@ -1,6 +1,6 @@
 # bundesliga
 
-An application that displays data about the Bundesliga, the premier soccer league in Germany.
+An application that displays data about the Bundesliga, the premier football league in Germany.
 
 New features will be added periodically!
 
