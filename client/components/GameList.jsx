@@ -18,10 +18,7 @@ class GameList extends Component {
               orderId={index + 1}
               score={game.score.fullTime}
               scoreAtHalf={game.score.halfTime}
-              referee={
-                (game.referees[0] && game.referees[0].name) ||
-                'Unknown'
-              }
+              referee={(game.referees[0] && game.referees[0].name) || 'Unknown'}
             />
           );
         })}
