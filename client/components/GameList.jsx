@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Game from './Game';
+import Game from './Game.jsx';
 import { connect } from 'react-redux';
 import store from '../store';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Table from './Table';
-import SelectorForm from './SelectorForm';
+import Table from './Table.jsx';
+import SelectorForm from './SelectorForm.jsx';
 import { getTableFromAPI } from '../reducer';
 import { connect } from 'react-redux';
 

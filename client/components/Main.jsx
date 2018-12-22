@@ -1,6 +1,6 @@
 import React from 'react';
-import Sidebar from './Sidebar';
-import GameList from './GameList';
+import Sidebar from './Sidebar.jsx';
+import GameList from './GameList.jsx';
 
 const Main = () => {
   return (
