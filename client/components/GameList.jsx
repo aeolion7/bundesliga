@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Game from './Game';
+import Game from './Game.jsx';
 import { connect } from 'react-redux';
 import store from '../store';
 
@@ -18,10 +18,7 @@ class GameList extends Component {
               orderId={index + 1}
               score={game.score.fullTime}
               scoreAtHalf={game.score.halfTime}
-              referee={
-                (game.referees[0] && game.referees[0].name) ||
-                'Unknown'
-              }
+              referee={(game.referees[0] && game.referees[0].name) || 'Unknown'}
             />
           );
         })}

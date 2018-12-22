@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TableRow from './TableRow';
+import TableRow from './TableRow.jsx';
 import { connect } from 'react-redux';
 import utils from '../../server/utils';
 
