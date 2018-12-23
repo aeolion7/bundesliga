@@ -13,10 +13,9 @@ In order to use the application, you will need an API key. Please follow these i
 1. In your terminal, navigate to the directory where you would like to place this application.
 2. Clone this repository onto your local machine: `git clone https://github.com/aeolion7/bundesliga.git`.
 3. In your terminal, navigate to the project directory and type `npm install`.
-4. Sign up using the above link (it's free!) and you will be given an API key. It can be accessed at any time in the "My Account" tab.
+4. Sign up using the above API link (it's free!) and you will be given an API key. It can be accessed at any time in the "My Account" tab.
 5. Create a file in the top-level directory of this application called "secrets.js".
-6. In secrets.js, paste the following line of code:
-   `export const API_TOKEN = 'YOUR_API_TOKEN_HERE';`
+6. In secrets.js, paste the following line of code: `export const API_TOKEN = 'YOUR_API_TOKEN_HERE';` (Make sure that you replace `YOUR_API_TOKEN_HERE` with the API token you received in step 4!)
 7. In the terminal, type `npm run start-dev`.
 8. In your browser, navigate to "localhost:3000".
 9. Look at some German football data!
