@@ -7,6 +7,7 @@ body {
 button {
   align-self: end;
   background-image: url('./soccerball.png');
+  background-size: contain;
   border-radius: 40px;
   height: 5vh;
   justify-self: center;
@@ -131,7 +132,7 @@ td:nth-child(2) {
 
 .table-logo {
   height: 3.4vh;
-  width: 60%;
+  width: 2vw;
 }
 
 .table-team:hover {
