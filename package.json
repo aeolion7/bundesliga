@@ -4,6 +4,7 @@
   "description": "Bundesliga web-app",
   "main": "app.js",
   "scripts": {
+    "deploy": "script/deploy",
     "start": "node server/app.js",
     "start-dev": "webpack -w & nodemon server/app.js"
   },
