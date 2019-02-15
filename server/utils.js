@@ -1,7 +1,5 @@
 /* eslint-disable complexity */
 
-// utility functions
-
 const utils = {};
 
 // checkForId checks each team name as provided through data
