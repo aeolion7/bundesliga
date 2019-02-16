@@ -30,7 +30,7 @@ class SelectorForm extends Component {
       <div id="selectors">
         <div>
           <>
-            Season
+            Season{' '}
             <select onChange={this.handleChange} name="selectedSeason">
               <option value="">--</option>
               <option value="2017">2017-18</option>
@@ -40,7 +40,7 @@ class SelectorForm extends Component {
         </div>
         <div>
           <>
-            Matchday
+            Matchday{' '}
             <select onChange={this.handleChange} name="selectedMatchday">
               <option value="">--</option>
               {Array(34)
