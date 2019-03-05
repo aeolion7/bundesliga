@@ -95,6 +95,7 @@ td:nth-child(2) {
 
 .game-info p {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2vw;
   font-weight: bold;
   margin: 0;
 }
@@ -125,7 +126,7 @@ td:nth-child(2) {
   display: flex;
   flex-direction: column;
   font-family: 'Germania One', serif;
-  font-size: 4.75em;
+  font-size: 5.5vw;
   justify-content: center;
   text-shadow: 1px 1px rgb(255, 52, 52);
 }
@@ -155,7 +156,7 @@ td:nth-child(2) {
 .team-name {
   align-self: center;
   font-family: 'Overlock', cursive;
-  font-size: 1em;
+  font-size: 1.1vw;
   font-weight: bold;
   margin: 0;
   text-align: center;
