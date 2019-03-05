@@ -3,7 +3,8 @@
 An application that displays data about the Bundesliga, the premier football league in Germany.
 
 New features will be added periodically!
-Please note that the application is not currently optimized for mobile browsers. This optimization is currently under development.
+Please note that the application is not yet optimized for mobile browsers, and is best viewed on a desktop (or laptop!) browser.
+Mobile responsiveness is currently a work in progress.
 
 Football data provided by the [Football-Data.org API](https://www.football-data.org/).
 
